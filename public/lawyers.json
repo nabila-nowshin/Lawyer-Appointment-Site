@@ -1,0 +1,87 @@
+[
+    {
+      "image": "https://i.ibb.co.com/4cdzk75/girl1.jpg",
+      "name": "Ayesha Rahman",
+      "speciality": "Corporate Law",
+      "experience": "8 years",
+      "licenseNumber": "BDL-203948"
+    },
+    {
+      "image": "https://i.ibb.co.com/6zqK4WS/man1.jpg",
+      "name": "Samiul Haque",
+      "speciality": "Criminal Defense",
+      "experience": "12 years",
+      "licenseNumber": "BDL-198725"
+    },
+    {
+      "image": "https://i.ibb.co.com/cSXCBKJv/girl2.jpg",
+      "name": "Nazia Karim",
+      "speciality": "Family Law",
+      "experience": "6 years",
+      "licenseNumber": "BDL-214587"
+    },
+    {
+      "image": "https://i.ibb.co.com/GQZc8XSF/man2.jpg",
+      "name": "Tanvir Alam",
+      "speciality": "Intellectual Property",
+      "experience": "10 years",
+      "licenseNumber": "BDL-176342"
+    },
+    {
+      "image": "https://i.ibb.co.com/MyTRB6YM/girl3.png",
+      "name": "Farzana Hossain",
+      "speciality": "Immigration Law",
+      "experience": "7 years",
+      "licenseNumber": "BDL-220031"
+    },
+    {
+      "image": "https://i.ibb.co.com/YTtqmjzv/man3.jpg",
+      "name": "Mahmudul Kabir",
+      "speciality": "Tax Law",
+      "experience": "11 years",
+      "licenseNumber": "BDL-192304"
+    },
+    {
+      "image": "https://i.ibb.co.com/gL959KdM/girl4.jpg",
+      "name": "Sadia Chowdhury",
+      "speciality": "Environmental Law",
+      "experience": "5 years",
+      "licenseNumber": "BDL-209912"
+    },
+    {
+      "image": "https://i.ibb.co.com/JWr2sVw4/man5.png",
+      "name": "Arif Hossain",
+      "speciality": "Civil Litigation",
+      "experience": "9 years",
+      "licenseNumber": "BDL-187635"
+    },
+    {
+      "image": "https://i.ibb.co.com/gLMBYL3k/girl5.png",
+      "name": "Nafisa Sultana",
+      "speciality": "Labor & Employment",
+      "experience": "4 years",
+      "licenseNumber": "BDL-228476"
+    },
+    {
+      "image": "https://i.ibb.co.com/wrKcFMBv/man6.jpg",
+      "name": "Zahid Hasan",
+      "speciality": "Banking & Finance",
+      "experience": "13 years",
+      "licenseNumber": "BDL-199812"
+    },
+    {
+      "image": "https://i.ibb.co.com/xKKRyLqn/girl6.png",
+      "name": "Maliha Noor",
+      "speciality": "Constitutional Law",
+      "experience": "6 years",
+      "licenseNumber": "BDL-211089"
+    },
+    {
+      "image": "https://i.ibb.co.com/Q7ZJsqrp/man4.jpg",
+      "name": "Rezaul Karim",
+      "speciality": "Cyber Law",
+      "experience": "7 years",
+      "licenseNumber": "BDL-218877"
+    }
+  ]
+  
