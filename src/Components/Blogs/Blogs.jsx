@@ -4,7 +4,6 @@ import Blog from '../Blog/Blog';
 
 const Blogs = () => {
     const articles=useLoaderData();
-    //console.log(articles);
 
   return (
     <div className="blog-page max-w-4xl mx-auto py-8">

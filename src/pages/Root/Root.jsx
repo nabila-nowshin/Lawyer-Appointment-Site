@@ -8,7 +8,8 @@ import ScrollToTop from '../../Components/ScrollToTop';
 const Root = () => {
     const navigation = useNavigation();
     return (
-        <div className='mx-auto'>
+        <div 
+        className='mx-auto'>
             <ScrollToTop></ScrollToTop>
             <Header></Header>
             {navigation.state === "loading" && <LoadingSpinner />}
