@@ -28,6 +28,7 @@ import Navbar from "../Components/Header/Navbar";
         },
         {
           path:"blogs",
+          loader:()=>fetch('/questions.json'),
           Component: Blogs
         },
         {
