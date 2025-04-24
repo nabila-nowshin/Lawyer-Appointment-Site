@@ -17,7 +17,7 @@ const Footer = () => {
                 <NavLink to='/'>Home</NavLink>
                 <NavLink to='/booking'>Bookings</NavLink>
                 <NavLink to='/blogs'>Blogs</NavLink>
-                <NavLink to='/'>Contacts</NavLink>
+                <NavLink to=''>Contacts</NavLink>
             </div> 
             <hr className="w-full border-t-2 border-dashed border-gray-300" />
             <div className='flex gap-3.5 mt-5 text-blue-700 text-2xl'>
