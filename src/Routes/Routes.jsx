@@ -8,6 +8,7 @@ import Blogs from "../Components/Blogs/Blogs";
 import Booking from "../Components/Booking/Booking";
 import LawyerDetails from "../Components/LawyerDetails/LawyerDetails";
 import ErrorPage from "../Components/Error/ErrorPage";
+import Navbar from "../Components/Header/Navbar";
 
   export const router = createBrowserRouter([
     {
@@ -38,7 +39,12 @@ import ErrorPage from "../Components/Error/ErrorPage";
     },
     {
       path: '*',
-      element: <ErrorPage />
+      element: (
+        <>
+          <Navbar /> 
+          <ErrorPage /> 
+        </>
+      ),
     }
   ]);
 

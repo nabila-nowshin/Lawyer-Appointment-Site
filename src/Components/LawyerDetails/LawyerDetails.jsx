@@ -2,13 +2,12 @@ import {  useLoaderData, useNavigate, useParams } from 'react-router';
 import { FaExclamationTriangle } from 'react-icons/fa';
 import { addToStoredDB, getStoredLawyer } from '../../Utility/addToDB';
 import { toast, ToastContainer } from 'react-toastify';
+import NoLawyer from '../NoLawyer/NoLawyer';
 
 const LawyerDetails = () => {
     const navigate=useNavigate();
     const allLawyers=useLoaderData();
    
-
-
     //got id through router
     const {id}=useParams();
     //console.log(id);
@@ -16,6 +15,10 @@ const LawyerDetails = () => {
   
     const selectedLaw=allLawyers.find(lawyer=>lawyer.id===parseInt(id))
     //console.log(selectedLaw);
+
+    if (!selectedLaw) {
+        return <NoLawyer></NoLawyer>
+      }
 
     const {
         image,

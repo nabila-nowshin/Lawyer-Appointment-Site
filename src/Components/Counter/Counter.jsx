@@ -17,7 +17,7 @@ const Counter = () => {
                 <div className='bg-gray-200 p-10 rounded-2xl w-full'>
                     <img src={pic1} alt="" />
                     <h1 className='text-3xl font-bold py-3'>
-                        <CountUp end={199} duration={10}>
+                        <CountUp end={199} duration={20}>
                         </CountUp>
                         +
                     </h1>
@@ -28,7 +28,7 @@ const Counter = () => {
                     <h1 className='text-3xl font-bold py-3'>
                         <CountUp 
                         end={1900} 
-                        duration={10}>
+                        duration={20}>
                         </CountUp>
                         +
                         </h1>
@@ -39,7 +39,7 @@ const Counter = () => {
                     <h1 className='text-3xl font-bold py-3'>
                     <CountUp 
                     end={467} 
-                    duration={10}>
+                    duration={20}>
                     </CountUp>
                         +</h1>
                     <p>Total Reviews</p>
@@ -47,7 +47,7 @@ const Counter = () => {
                 <div className='bg-gray-200 p-10 rounded-2xl w-full'>
                     <img src={pic4} alt="" />
                     <h1 className='text-3xl font-bold py-3'>
-                    <CountUp end={300} duration={10}>
+                    <CountUp end={300} duration={20}>
                     </CountUp>+
                     </h1>
                     <p>Total Stuffs</p>

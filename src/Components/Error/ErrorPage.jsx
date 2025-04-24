@@ -5,9 +5,9 @@ import Navbar from '../Header/Navbar';
 const ErrorPage = () => {
   return (
     <>
-        <Navbar></Navbar>
-        <div className=" w-screen flex items-center justify-center bg-gradient-to-br from-green-50 to-green-100 px-4 py-5">
-      <div className="bg-white p-10 rounded-2xl shadow-2xl max-w-md text-center">
+        <div className=" w-screen flex items-center justify-center  px-4 mt-5">
+        <div className="bg-white p-10 rounded-2xl shadow-2xl max-w-md text-center border-4 border-green-200 bg-gradient-to-br from-white via-green-50 to-green-100">
+
        
         <img 
           src={error} 
