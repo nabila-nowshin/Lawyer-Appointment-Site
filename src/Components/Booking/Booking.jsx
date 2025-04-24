@@ -107,7 +107,7 @@ const Booking = () => {
                             <h2 className="card-title text-2xl mb-3">{l.name}</h2>
                                 <div className='flex justify-between py-5 border-b-2 border-dashed border-gray-300 '>
                                     <p>{l.speciality} Expert</p>
-                                    <p>Consultation Fee: <span className='text-green-600 font-bold'>{l.fee}</span></p> 
+                                    <p>Consultation Fee: <span className='text-green-600 font-bold'>{l.fee} Taka</span></p> 
                                     </div>
                                     
                                 <button

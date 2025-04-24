@@ -7,6 +7,7 @@ import Home from "../Components/Home/Home";
 import Blogs from "../Components/Blogs/Blogs";
 import Booking from "../Components/Booking/Booking";
 import LawyerDetails from "../Components/LawyerDetails/LawyerDetails";
+import ErrorPage from "../Components/Error/ErrorPage";
 
   export const router = createBrowserRouter([
     {
@@ -35,5 +36,9 @@ import LawyerDetails from "../Components/LawyerDetails/LawyerDetails";
         },
       ]
     },
+    {
+      path: '*',
+      element: <ErrorPage />
+    }
   ]);
 
