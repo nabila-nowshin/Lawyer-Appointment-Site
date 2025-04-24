@@ -82,8 +82,8 @@ const Booking = () => {
         
                 selectedLawyer.length ===0 ? 
                 <div className="text-center mt-10">
-                <h2 className="text-4xl font-bold mb-10">You have not booked any appointment yet</h2>
-                <p className='font-light text-lg px-4'>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience.</p>
+                <h2 className=" text-3xl md:text-4xl font-bold mb-10">You have not booked any appointment yet</h2>
+                <p className='font-light md:text-lg px-5'>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience.</p>
                 <Link to='/'>
                     <button className='btn  mt-5 btn-primary mb-30'> Book an appointment</button>
                 </Link>

@@ -8,10 +8,10 @@ const Banner = () => {
 
         style={{ backgroundImage: `url(${bgImage})` }}
         >
-            <h2 className="font-bold text-5xl w-3/5 leading-tight mb-4">
+            <h2 className="font-bold  text-3xl lg:text-5xl w-3/5 leading-tight mb-4">
             Best Lawyers
             </h2>
-            <p className="text-lg text-gray-100 w-4/5">
+            <p className="lg:text-lg text-gray-100 w-4/5">
             Connect with experienced legal professionals across a wide range of specialties. Whether you're facing a dispute, need contract advice, or seeking long-term legal support — our platform ensures trusted guidance without the legalese.
             </p>
         </div>

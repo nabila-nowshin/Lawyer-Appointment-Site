@@ -49,11 +49,11 @@ const LawyerDetails = () => {
         <div className='max-w-7xl mx-auto'>
             <ToastContainer />
             <div className=' py-15 bg-gray-200 rounded-2xl mt-10 text-center'>
-                <h1 className='text-4xl font-bold'>Lawyer’s Profile Details</h1>
-                <p className='text-lg px-[10%] font-light mt-8'>{description}</p>
+                <h1 className='text-3xl md:text-4xl font-bold'>Lawyer’s Profile Details</h1>
+                <p className='md:text-lg px-[10%] font-light mt-8'>{description}</p>
             </div>
             
-            <div className='flex gap-5 shadow-sm py-10 px-5 border border-gray-200 rounded-2xl mt-10'>
+            <div className='flex flex-col md:flex-row items-center gap-5 shadow-sm py-10 px-5 border border-gray-200 rounded-2xl mt-10'>
                 <figure className="px-5 pt-10 border border-gray-300">
                     <img
                     src={image}
@@ -67,13 +67,13 @@ const LawyerDetails = () => {
 
                         <h2 className="card-title text-2xl mb-3">{name}</h2>
 
-                        <div className='flex gap-8'>
-                            <p>{speciality} Expert</p>
-                            <p><span>&reg;</span>  License No : {licenseNumber} Expert</p>
+                        <div className='md:flex gap-8'>
+                            <p className='mb-3'>{speciality} Expert</p>
+                            <p className=''><span>&reg;</span>  License No : {licenseNumber} Expert</p>
                         </div>
 
-                        <div className='flex items-center gap-3 my-5'>
-                            <p>Availability</p>
+                        <div className='md:flex items-center gap-3 my-5'>
+                            <p className='mb-3'>Availability</p>
                             {
                                 availability.map((day,index)=><button
                                 key={index} 
@@ -96,7 +96,7 @@ const LawyerDetails = () => {
              <div className='shadow-sm py-10 px-5 border border-gray-200 rounded-2xl mt-10'>
                 <div className="bg-base-100">
 
-                    <h1 className='text-4xl font-bold text-center pb-5 border-b-2 border-gray-300 border-dashed'>Book an Appointment</h1>
+                    <h1 className='text-3xl md:text-4xl font-bold text-center pb-5 border-b-2 border-gray-300 border-dashed'>Book an Appointment</h1>
                     
                      <div className='flex justify-between py-5 border-b-2 border-gray-300 '>
                         <h1>Availability</h1>

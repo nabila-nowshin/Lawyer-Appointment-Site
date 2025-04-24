@@ -13,7 +13,7 @@ const Counter = () => {
                 <p className='font-light text-lg px-4'>Our platform connects you with verified, experienced Lawyers across various specialities — all at your convenience. </p>
             </div>
 
-            <div className='flex gap-3 justify-around mt-10'>
+            <div className='grid grid-cols-2 lg:grid-cols-4 gap-3 justify-around mt-10 px-3'>
                 <div className='bg-gray-200 p-10 rounded-2xl w-full'>
                     <img src={pic1} alt="" />
                     <h1 className='text-3xl font-bold py-3'>
