@@ -1,87 +1,134 @@
 [
-    {
-      "image": "https://i.ibb.co.com/4cdzk75/girl1.jpg",
-      "name": "Ayesha Rahman",
-      "speciality": "Corporate Law",
-      "experience": "8 years",
-      "licenseNumber": "BDL-203948"
-    },
-    {
-      "image": "https://i.ibb.co.com/6zqK4WS/man1.jpg",
-      "name": "Samiul Haque",
-      "speciality": "Criminal Defense",
-      "experience": "12 years",
-      "licenseNumber": "BDL-198725"
-    },
-    {
-      "image": "https://i.ibb.co.com/cSXCBKJv/girl2.jpg",
-      "name": "Nazia Karim",
-      "speciality": "Family Law",
-      "experience": "6 years",
-      "licenseNumber": "BDL-214587"
-    },
-    {
-      "image": "https://i.ibb.co.com/GQZc8XSF/man2.jpg",
-      "name": "Tanvir Alam",
-      "speciality": "Intellectual Property",
-      "experience": "10 years",
-      "licenseNumber": "BDL-176342"
-    },
-    {
-      "image": "https://i.ibb.co.com/MyTRB6YM/girl3.png",
-      "name": "Farzana Hossain",
-      "speciality": "Immigration Law",
-      "experience": "7 years",
-      "licenseNumber": "BDL-220031"
-    },
-    {
-      "image": "https://i.ibb.co.com/YTtqmjzv/man3.jpg",
-      "name": "Mahmudul Kabir",
-      "speciality": "Tax Law",
-      "experience": "11 years",
-      "licenseNumber": "BDL-192304"
-    },
-    {
-      "image": "https://i.ibb.co.com/gL959KdM/girl4.jpg",
-      "name": "Sadia Chowdhury",
-      "speciality": "Environmental Law",
-      "experience": "5 years",
-      "licenseNumber": "BDL-209912"
-    },
-    {
-      "image": "https://i.ibb.co.com/JWr2sVw4/man5.png",
-      "name": "Arif Hossain",
-      "speciality": "Civil Litigation",
-      "experience": "9 years",
-      "licenseNumber": "BDL-187635"
-    },
-    {
-      "image": "https://i.ibb.co.com/gLMBYL3k/girl5.png",
-      "name": "Nafisa Sultana",
-      "speciality": "Labor & Employment",
-      "experience": "4 years",
-      "licenseNumber": "BDL-228476"
-    },
-    {
-      "image": "https://i.ibb.co.com/wrKcFMBv/man6.jpg",
-      "name": "Zahid Hasan",
-      "speciality": "Banking & Finance",
-      "experience": "13 years",
-      "licenseNumber": "BDL-199812"
-    },
-    {
-      "image": "https://i.ibb.co.com/xKKRyLqn/girl6.png",
-      "name": "Maliha Noor",
-      "speciality": "Constitutional Law",
-      "experience": "6 years",
-      "licenseNumber": "BDL-211089"
-    },
-    {
-      "image": "https://i.ibb.co.com/Q7ZJsqrp/man4.jpg",
-      "name": "Rezaul Karim",
-      "speciality": "Cyber Law",
-      "experience": "7 years",
-      "licenseNumber": "BDL-218877"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/4cdzk75/girl1.jpg",
+    "name": "Ayesha Rahman",
+    "speciality": "Corporate Law",
+    "experience": "8 years",
+    "licenseNumber": "BDL-203948",
+    "fee": 2000,
+    "availability": ["Monday", "Wednesday", "Friday"],
+    "description": "Ayesha is an experienced Corporate Law attorney specializing in business law, mergers, and acquisitions. She has helped many clients with corporate compliance and risk management."
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/6zqK4WS/man1.jpg",
+    "name": "Samiul Haque",
+    "speciality": "Criminal Defense",
+    "experience": "12 years",
+    "licenseNumber": "BDL-198725",
+    "fee": 2500,
+    "availability": ["Tuesday", "Thursday", "Saturday"],
+    "description": "Samiul is a skilled criminal defense lawyer with a proven track record in both minor and serious criminal cases. His expertise extends to defending clients in high-profile cases."
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/cSXCBKJv/girl2.jpg",
+    "name": "Nazia Karim",
+    "speciality": "Family Law",
+    "experience": "6 years",
+    "licenseNumber": "BDL-214587",
+    "fee": 1500,
+    "availability": ["Monday", "Thursday"],
+    "description": "Nazia is an expert in family law, helping clients with divorce, custody battles, and property disputes. She ensures a sensitive and confidential approach to all family-related cases."
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/GQZc8XSF/man2.jpg",
+    "name": "Tanvir Alam",
+    "speciality": "Intellectual Property",
+    "experience": "10 years",
+    "licenseNumber": "BDL-176342",
+    "fee": 3000,
+    "availability": ["Wednesday", "Friday"],
+    "description": "Tanvir specializes in Intellectual Property law, dealing with patents, trademarks, and copyrights. He assists clients with IP litigation, filing for trademarks, and protecting creative works."
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/MyTRB6YM/girl3.png",
+    "name": "Farzana Hossain",
+    "speciality": "Immigration Law",
+    "experience": "7 years",
+    "licenseNumber": "BDL-220031",
+    "fee": 1800,
+    "availability": ["Tuesday", "Saturday"],
+    "description": "Farzana helps clients navigate immigration procedures, including visa applications, citizenship, and deportation defense. She has extensive experience with international law and cross-border legal issues."
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/YTtqmjzv/man3.jpg",
+    "name": "Mahmudul Kabir",
+    "speciality": "Tax Law",
+    "experience": "11 years",
+    "licenseNumber": "BDL-192304",
+    "fee": 2200,
+    "availability": ["Monday", "Wednesday", "Friday"],
+    "description": "Mahmudul is a leading expert in tax law, advising both individuals and corporations on tax planning, tax audits, and dispute resolution with tax authorities."
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/gL959KdM/girl4.jpg",
+    "name": "Sadia Chowdhury",
+    "speciality": "Environmental Law",
+    "experience": "5 years",
+    "licenseNumber": "BDL-209912",
+    "fee": 2000,
+    "availability": ["Monday", "Thursday", "Saturday"],
+    "description": "Sadia specializes in environmental regulations, helping clients comply with laws related to pollution, conservation, and environmental protection. She has represented both private and public sector clients."
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/JWr2sVw4/man5.png",
+    "name": "Arif Hossain",
+    "speciality": "Civil Litigation",
+    "experience": "9 years",
+    "licenseNumber": "BDL-187635",
+    "fee": 2400,
+    "availability": ["Tuesday", "Friday", "Sunday"],
+    "description": "Arif is a seasoned civil litigation lawyer who handles disputes in areas such as contracts, property, and personal injury claims. He has a reputation for successfully navigating complex legal battles."
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/gLMBYL3k/girl5.png",
+    "name": "Nafisa Sultana",
+    "speciality": "Labor & Employment",
+    "experience": "4 years",
+    "licenseNumber": "BDL-228476",
+    "fee": 1700,
+    "availability": ["Wednesday", "Saturday"],
+    "description": "Nafisa provides legal services in labor law, including employee rights, workplace discrimination, and wage disputes. She works closely with unions and companies to resolve employment issues."
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/wrKcFMBv/man6.jpg",
+    "name": "Zahid Hasan",
+    "speciality": "Banking & Finance",
+    "experience": "13 years",
+    "licenseNumber": "BDL-199812",
+    "fee": 2800,
+    "availability": ["Monday", "Tuesday", "Thursday"],
+    "description": "Zahid specializes in banking and finance law, advising financial institutions and clients on issues such as loan agreements, credit, debt recovery, and financial regulations."
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/xKKRyLqn/girl6.png",
+    "name": "Maliha Noor",
+    "speciality": "Constitutional Law",
+    "experience": "6 years",
+    "licenseNumber": "BDL-211089",
+    "fee": 2100,
+    "availability": ["Tuesday", "Friday"],
+    "description": "Maliha is a constitutional law expert who has handled landmark cases related to civil liberties, human rights, and constitutional amendments. She advocates for the protection of fundamental rights."
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/Q7ZJsqrp/man4.jpg",
+    "name": "Rezaul Karim",
+    "speciality": "Cyber Law",
+    "experience": "7 years",
+    "licenseNumber": "BDL-218877",
+    "fee": 3000,
+    "availability": ["Monday", "Wednesday", "Friday"],
+    "description": "Rezaul specializes in cyber law, covering issues like online privacy, intellectual property rights in digital content, and internet security. He helps clients with both personal and business-related cyber disputes."
+  }
+]

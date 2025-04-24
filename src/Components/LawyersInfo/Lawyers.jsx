@@ -1,12 +1,22 @@
-import React, { useState } from 'react';
+import React, { Suspense, useEffect, useState } from 'react';
 import Lawyer from '../Lawyer/Lawyer';
 
-const Lawyers = ({ lawyers }) => {
+const Lawyers = () => {
+    const [lawyers,setLawyers]=useState([]);
+    useEffect(() => {
+        fetch("lawyers.json")
+            .then(res => res.json())
+            .then(data => {
+            setLawyers(data)
+        })
+    },[])
   const [showAll, setShowAll] = useState(false);
-
+  
   // when showAll === false -- only first 6
   const visibleLawyers = showAll ? lawyers : lawyers.slice(0, 6);
 
+
+  //console.log('visibleLawyers:', visibleLawyers); 
   return (
     <div className="max-w-7xl mx-auto py-20">
       <h1 className="text-center font-bold text-4xl mb-5">Our Best Lawyers</h1>
@@ -18,18 +28,20 @@ const Lawyers = ({ lawyers }) => {
 
       
       <div className="mt-10 lg:grid lg:grid-cols-2 gap-10">
-        {visibleLawyers.map((lawyer) => (
-          <Lawyer key={lawyer.id} lawyer={lawyer} />
-        ))}
+        <Suspense fallback="Loading">
+            {visibleLawyers?.map((lawyer) => (
+            <Lawyer key={lawyer.id} lawyer={lawyer} />
+            ))}
+        </Suspense>
+        
       </div>
 
       {/* show‑more / show‑less button */}
       {lawyers.length > 6 && (
         <div className="mt-10 text-center">
           <button
-            onClick={() => setShowAll((prev) => !prev)}
-            className="px-6 py-2 border-2 bg-green-600 text-white rounded-full
-                       "
+            onClick={() => setShowAll((prev) => !prev)}   //toggle
+            className="px-6 py-2 border-2 bg-green-600 text-white rounded-full"
           >
             {showAll ? 'Show less' : 'Show more'}
           </button>

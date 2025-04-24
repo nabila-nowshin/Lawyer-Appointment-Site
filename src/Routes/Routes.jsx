@@ -6,6 +6,7 @@ import Home from "../Components/Home/Home";
 
 import Blogs from "../Components/Blogs/Blogs";
 import Booking from "../Components/Booking/Booking";
+import LawyerDetails from "../Components/LawyerDetails/LawyerDetails";
 
   export const router = createBrowserRouter([
     {
@@ -15,16 +16,22 @@ import Booking from "../Components/Booking/Booking";
         {
             index: true,
             path:"/",
-            loader:()=>fetch('lawyers.json'),
+            loader:()=>fetch('/lawyers.json'),
             Component: Home
         },
         {
-          path:"/booking",
+          path:"booking",
+          loader:()=>fetch('/lawyers.json'),
           Component: Booking
         },
         {
-          path:"/blogs",
+          path:"blogs",
           Component: Blogs
+        },
+        {
+          path:"Lawyer/:id",
+          loader:()=>fetch('/lawyers.json'),
+          Component: LawyerDetails
         },
       ]
     },
