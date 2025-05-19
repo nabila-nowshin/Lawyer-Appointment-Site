@@ -15,6 +15,11 @@ A full-featured React-based platform to connect users with expert lawyers. Brows
 - ⚡ **Responsive Design** — Optimized for mobile and desktop using Tailwind CSS.
 
 ---
+## 🔗 Live Demo
+
+[Click here to view the app](https://findlawyer.netlify.app/)
+
+---
 
 ## 🛠️ Built With
 
