@@ -1,12 +1,28 @@
-# React + Vite
+🧑‍⚖️ Lawyer Booking Platform
+A full-featured React-based platform to connect users with expert lawyers. Browse profiles, check availability, view fees, and book consultations — all in a smooth, responsive interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🔍 View Lawyer Profiles — Browse detailed lawyer profiles with experience, specialization, license info, availability, and fee.
 
-Currently, two official plugins are available:
+📅 Book Appointments — Save selected lawyers to a local "booking" dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📊 Dynamic Chart — Bar chart showing consultation fees visually using recharts.
 
-## Expanding the ESLint configuration
+❌ Cancel Bookings — Easily cancel booked appointments with a click.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📚 Read Blogs — Expand legal knowledge through a dedicated blog section.
+
+🔢 Animated Counters — Track platform stats using smooth animations via react-countup.
+
+🛠️ Tech Stack
+Frontend: React, Tailwind CSS, DaisyUI
+
+Routing: React Router
+
+Charting: Recharts
+
+Data Storage: localStorage
+
+Toasts/Alerts: React Toastify
+
+Animations: CountUp
